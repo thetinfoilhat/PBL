@@ -16,7 +16,7 @@ st.markdown(
     **👈 Select the news classifier page** to see what our AI can do!
     ### Want to learn more?
     - Check out [keras.io](https://keras.io/)
-    - Take a look at all of our [code](https://github.com)
+    - Take a look at all of our [code](https://github.com/thetinfoilhat/PBL)
     - Explore our amazing app!
 """
 )
