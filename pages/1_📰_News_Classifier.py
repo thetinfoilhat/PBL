@@ -42,7 +42,7 @@ st.title("News Classifier")
 # Get user input
 with st.form("my_form", clear_on_submit= True):
     # Render the text area with a placeholder
-    user_input = st.text_area("", value="", key="headline", max_chars=1000, placeholder="Enter some news...")
+    user_input = st.text_area("", value="", key="headline", max_chars=1000, placeholder="Enter a news headline...")
     # Render the submit button
     submitted = st.form_submit_button("Predict")
 
