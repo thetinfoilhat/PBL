@@ -30,9 +30,9 @@ padding_type = 'post'
 
 
 # Load tokenizer and model
-with open('.vscode/streamlit/pages/tokenizer.pkl', 'rb') as handle:
+with open('pages/tokenizer.pkl', 'rb') as handle:
     tokenizer = pickle.load(handle)
-model = load_model('.vscode/streamlit/pages/model.h5')
+model = load_model('pages/model.h5')
 
 
 # Set up streamlit app
